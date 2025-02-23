@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+
+  </head>
+  <body>
+    
+    <h1 style="text-align: center">ABC Tasarim Programi ve Satis Sozlesmesi</h1>
+
+    <div style="margin: 20px">
+      <fieldset>
+        <legend>Sozlesme Onay</legend>
+        <input type="checkbox" name="checked" id="check" />
+        <label for="check"
+          >Asagidaki Bilgilerin Dogrulugunu Kabul Ediyorum ve Sozlesmesini
+          Onayliyorum.</label
+        ><br />
+
+        <input type="submit" value="Formu Kaydet" />
+        <input type="reset" value="Formu Temizle" />
+      </fieldset>
+    </div>
+
+    <div>
+      <div style="margin: 20px">
+        <fieldset>
+          <legend>Kisisel Bilgiler</legend>
+
+          <label for="ID_insert">Form Guvenlik ID</label>
+          <input
+            style="margin-left: 10px"
+            type="text"
+            name="ID_filled"
+            id="ID_insert"
+          /><br /><br />
+
+          <label for="name">Ad</label>
+          <input
+            style="margin-left: 109px"
+            type="text"
+            name="name_filled"
+            id="name"
+          /><br /><br />
+
+          <label for="surname">Soyad</label>
+          <input
+            style="margin-left: 90px"
+            type="text"
+            name="surname_filled"
+            id="surname"
+          /><br /><br />
+
+          <label for="age">Yas</label>
+          <input
+            style="margin-left: 107px"
+            type="text"
+            name="age_filled"
+            id="age"
+          /><br /><br />
+
+          <label for="email">Mail Adresi</label>
+          <input
+            style="margin-left: 54px"
+            type="text"
+            name="email_filled"
+            id="email"
+          /><br /><br />
+
+          <label for="photo">Fotograf Ekle</label>
+          <input
+            style="margin-left: 41px"
+            type="file"
+            name="photo_uploaded"
+            id="photo"
+          /><br />
+        </fieldset>
+      </div>
+
+      <div style="margin: 20px">
+        <fieldset>
+          <legend>Diger Bilgiler</legend>
+          <h3 style="text-align: center">
+            Buradaki Alanlar Mesleki Bilgileri Kapsar
+          </h3>
+
+          <label for="date">Sektore Giris Tarihi</label>
+          <input
+            style="margin-left: 90px"
+            type="date"
+            name="date_inserted"
+            id="date"
+          /><br /><br /><br />
+
+          <label for="experience">Sektor Deneyimi</label>
+          
+          <label style="margin-left: 108px;" for="experience1">1-5 yil</label>
+          <input
+            type="radio"
+            name="1-5_chosen"
+            id="experience1"
+            value="1-5"
+          /><br />
+          <label style="margin-left: 220px;" for="experience2">6-10 yil</label>
+          <input
+            type="radio"
+            name="6-10_chosen"
+            id="experience2"
+            value="6-10"
+          /><br />
+          <label style="margin-left: 220px;" for="experience3">11-15 yil</label>
+          <input type="radio" name="11-15_chosen" id="experience3" /><br />
+          <label style="margin-left: 220px;" for="experience4">15-uzeri</label>
+          <input type="radio" name="15+_chosen" id="experience4" /><br /><br>
+
+          <label for="Programmes">Programlama Dilleri</label>
+          <select
+          style="margin-left: 80px;"
+            class="rotation"
+            name="secilen programlama dili"
+            id="program"
+            size="5"
+          >
+            <optgroup label="programlama dilleri">
+              <option value="C#">C#</option>
+              <option value="C+">C+</option>
+              <option value="Type_Script">Type_Script</option>
+              <option value="PHP">PHP</option>
+              <option value="Python">Python</option>
+              <option value="Java_Script">Java_Script</option>
+            </optgroup>
+          </select>
+        </fieldset>
+      </div>
+
+      <div style="margin: 20px">
+        <fieldset >
+          <legend>Sozlesme Kopyasi</legend>
+          <textarea style="width: 40%; height: 100px; resize: none">
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit at eligendi corporis ratione perspiciatis, labore in obcaecati voluptas. Obcaecati distinctio repellat ipsa sunt odit nesciunt cum praesentium temporibus illo sed! Corrupti, consectetur tempore in expedita deleniti rem ratione error quidem veniam officia atque asperiores modi molestias ipsum sint repudiandae ab quod nobis repellendus pariatur cum. Odit officiis neque consequatur autem!</textarea
+          >
+        </fieldset>
+        <br />
+      </div>
+
+      <div style="margin: 20px;">
+        <fieldset>
+          <legend>Mail Listesi</legend>
+          <label for="Approve"></label>
+          <label for="istiyorum"
+            >Mail Listesine Katilmak <b>Istiyorum</b>
+          </label>
+          <input type="radio" name="approved" id="istiyorum" /><br />
+          <label for="istemiyorum"
+            >Mail Listesine Katilmak <b> <u>Istemiyorum</u> </b>
+          </label>
+          <input type="radio" name="not_approved" id="istemiyorum" />
+        </fieldset>
+      </div>
+
+     
+   
+  </body>
+</html>
