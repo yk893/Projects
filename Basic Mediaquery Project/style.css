@@ -72,7 +72,7 @@ section{
 
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:460px) {
     body{
         background-color: teal;
     }
