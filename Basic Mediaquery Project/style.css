@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+   
+    
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  
+}
+
+.img{
+    width:60%;
+    
+
+}
+
+
+
+@media screen and (max-width:900px) {
+    body{
+        background-color: aqua;
+    }
+
+    .img{
+       content: url("https://picsum.photos/id/68/600/400");
+     height: 500px;
+    }       
+}
+
+
+@media screen and (max-width:550px) {
+    body{
+        background-color: violet;
+    }
+
+ .img{
+        content: url("https://picsum.photos/id/543/600/400");
+
+        height: 450px;
+   
+     } 
+
+     nav{
+     flex-direction: column;
+     }
+     
+     
+
+}
+
+@media screen and (max-width:430px) {
+    body{
+        background-color: teal;
+    }
+
+ .img{
+        content: url("https://picsum.photos/id/987/600/400");
+
+        height: 450px;
+   
+     } 
+     
+
+}
